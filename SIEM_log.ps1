@@ -1,9 +1,9 @@
 # Configuro los parametros de correo electronico
 $smtpServer = "smtp.gmail.com"
-$from       = "adoral296@gmail.com"
-$to         = "adoral296@gmail.com"
-$usuario    = "adoral296@gmail.com"
-$passApp    = "gvsa igjc ekoi zyit"
+$from = "INTRODUCE_TU_CORREO"
+$usuario = "INTRODUCE_TU_CORREO"
+$passApp = "INTRODUCE_TU_PASSWORD_APLICACION"
+$to = "INTRODUCE_TU_CORREO_DESTINO"
 $securePass = $passApp | ConvertTo-SecureString -AsPlainText -Force
 $cred = New-Object System.Management.Automation.PSCredential($usuario, $securePass)
 
