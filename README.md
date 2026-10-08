@@ -1,8 +1,7 @@
 Pasos para ejecutar y usar esta herramienta:
 
 
-1. Descarga el script Powershell
-
+1. Descarga el script powershell de este repositorio.
 
 
 2. Lanza el script de PowerShell haciendo clic derecho y seleccionando "Ejecutar con PowerShell" o desde tu terminal elevada ejecutando:
