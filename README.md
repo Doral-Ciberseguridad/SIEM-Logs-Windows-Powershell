@@ -24,12 +24,17 @@ https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l-
 
 
 
-4. Comprueba en pantalla la lectura del archivo de configuración de eventos y el análisis de los registros de seguridad del sistema
+4. Vuelve a ejecutar el archivos powershell y comprueba en pantalla la lectura del archivo de configuración de eventos y el análisis de los registros de seguridad del sistema
 
 <img width="1069" height="285" alt="image" src="https://github.com/user-attachments/assets/b087bcbe-9800-4e35-96a1-cb1ad96ba4a2" />
 
 
 
 
-5. Visualiza si se han generado alertas por coincidencia de eventos críticos o si el sistema se encuentra sin incidencias, y crea una tarea programada si deseas que se ejecute de manera persistente en segundo plano
+5. Visualiza si se han generado alertas por coincidencia de eventos críticos o si el sistema se encuentra sin incidencias, y crea una tarea programada que ejecute el script powershell cada X minutos.
+
+<img width="862" height="714" alt="image" src="https://github.com/user-attachments/assets/3db3051c-2676-4708-b547-307c9bfe58f5" />
+
+Este paso es necesario para la ejecucion persistente de esta herramienta
+
 
