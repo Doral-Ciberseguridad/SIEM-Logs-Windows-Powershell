@@ -6,8 +6,9 @@ Pasos para ejecutar y usar esta herramienta:
 
 2. Lanza el script de PowerShell haciendo clic derecho y seleccionando "Ejecutar con PowerShell" o desde tu terminal elevada ejecutando:
 
+```
 ./SIEM_log.ps1
-
+```
 
 3. Asegurate de configurar los parámetros de correo electrónico y de revisar o editar el archivo de configuración de IDs de eventos (`eventos_config.txt`) según tus preferencias
 
